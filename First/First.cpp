@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include<iostream> 
 #include<thread> 
 using namespace std;
@@ -37,5 +38,15 @@ int main() {
 	for (int i = 0; i < length; i++) {
 		cout << arr[i] << ' ';
 	}
+=======
+
+
+int main()
+{
+
+
+	int test;
+
+>>>>>>> f8606ea... test
 	return 0;
 }
