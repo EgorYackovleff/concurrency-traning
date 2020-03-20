@@ -20,7 +20,11 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
+<<<<<<< HEAD
     <ProjectGuid>{EF4171BA-414F-45D5-8D41-6997F6DB8377}</ProjectGuid>
+=======
+    <ProjectGuid>{6D720730-FCE6-4C8A-880D-26FB31F62EC6}</ProjectGuid>
+>>>>>>> f8606ea... test
     <RootNamespace>First</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
