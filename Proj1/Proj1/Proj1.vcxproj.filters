@@ -13,10 +13,391 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Listings">
+      <UniqueIdentifier>{eb4d20a0-6a38-45ce-bf61-6a76b9a271b9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
       <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_9.12.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_9.13.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_10.1.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_a.1.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_a.2.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_a.3.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_a.4.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_c.1.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_c.2.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_c.3.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_c.4.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_c.5.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_c.6.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_c.7.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_c.8.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_c.9.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_c.10.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_1.1.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_2.1.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_2.2.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_2.3.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_2.4.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_2.5.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_2.6.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_2.7.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_2.8.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_3.1.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_3.2.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_3.3.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_3.4.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_3.5.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_3.6.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_3.7.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_3.8.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_3.9.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_3.10.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_3.11.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_3.12.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_3.13.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_4.1.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_4.2.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_4.3.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_4.4.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_4.5.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_4.6.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_4.7.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_4.8.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_4.9.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_4.10.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_4.11.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_4.12.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_4.13.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_4.14.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_4.15.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_4.16.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_5.1.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_5.2.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_5.3.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_5.4.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_5.5.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_5.6.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_5.7.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_5.8.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_5.9.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_5.10.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_5.11.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_5.12.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_5.13.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_6.1.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_6.2.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_6.3.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_6.4.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_6.5.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_6.6.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_6.7.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_6.8.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_6.9.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_6.10.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_6.11.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_6.12.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_6.13.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_7.1.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_7.2.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_7.3.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_7.4.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_7.5.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_7.6.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_7.7.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_7.8.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_7.9.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_7.10.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_7.11.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_7.12.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_7.13.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_7.14.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_7.15.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_7.16.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_7.17.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_7.18.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_7.19.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_7.20.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_7.21.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_8.1.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_8.2.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_8.3.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_8.4.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_8.5.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_8.6.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_8.7.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_8.8.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_8.9.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_8.10.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_8.11.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_8.12.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_8.13.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_9.1.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_9.2.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_9.3.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_9.4.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_9.5.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_9.6.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_9.7.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_9.8.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_9.9.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_9.10.cpp">
+      <Filter>Listings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CCiA_SourceCode\listing_9.11.cpp">
+      <Filter>Listings</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
