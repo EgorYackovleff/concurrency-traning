@@ -13,25 +13,41 @@ struct func
 
 	void operator()()
 	{
-		for (unsigned j = 0; j < 10000000; ++j)
+		for (unsigned j = 0; j < 1000000; ++j)
 		{
 			do_something(i);
 		}
 	}
 };
 
+void do_something_in_current_thread()
+{}
 
-void oops()
+void f()
 {
 	int some_local_state = 0;
 	func my_func(some_local_state);
-	std::thread my_thread(my_func);
-	my_thread.join();
-	//my_thread.detach();
+	std::thread t(my_func);
+	try
+	{
+		do_something_in_current_thread();
+	}
+	
+	catch (int a)
+	{
+		// Любые исключения типа int, сгенерированные в блоке try выше, обрабатываются здесь
+		printf( "We caught an int exception with value: " + a + '\n') ;
+	}
+	catch (...)
+	{
+		t.join();
+		throw;
+	}
+
+	t.join();
 }
 
 int main()
 {
-	oops();
+	f();
 }
-
