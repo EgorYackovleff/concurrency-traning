@@ -1,68 +1,61 @@
 #include <thread>
-#include <iostream>
+#include <string>
 
-class thread_guard
-{
-	std::thread& t;
-public:
-	explicit thread_guard(std::thread& t_) :
-		t(t_)
-	{}
-	~thread_guard()
-	{
-		if (t.joinable())
-		{
-			t.join();
-			std::cout << "join\n" ;
-		}
-	}
-
-	thread_guard(thread_guard const&) = delete;				// Копирующий конструктор и копирующий оператор присваивания помечены признаком =delete, 
-															// чтобы компилятор не генерировал их автоматически: копирование или присваивание такого объекта таит в себе опасность 
-	thread_guard& operator=(thread_guard const&) = delete;	// поскольку время жизни копии может оказаться дольше, чем время жизни присоединяемого потока.
-	
-};
-
-void do_something(int& i)
-{
-	++i;
-}
-
-struct func
-{
-	int& i;
-
-	func(int& i_) :i(i_) {
-	
-	}
-
-	void operator()()
-	{
-		for (unsigned j = 0; j < 10000000; ++j)
-		{
-			do_something(i);
-			if (i % 1000000 == 0) std::cout << i << "\n";
-		}
-	}
-};
-
-void do_something_in_current_thread()
+void open_document_and_display_gui(std::string const& filename)
 {}
 
-
-void f()
+bool done_editing()
 {
-	int some_local_state = 0;
-	func my_func(some_local_state);
-	std::thread t(my_func);
-	thread_guard g(t);
+	return true;
+}
 
-	do_something_in_current_thread();
+enum command_type {
+	open_new_document
+};
 
-	std::cout << "close\n";
+
+struct user_command
+{
+	command_type type;
+
+	user_command() :
+		type(open_new_document)
+	{}
+};
+
+user_command get_user_input()
+{
+	return user_command();
+}
+
+std::string get_filename_from_user()
+{
+	return "foo.doc";
+}
+
+void process_user_input(user_command const& cmd)
+{}
+
+void edit_document(std::string const& filename)
+{
+	open_document_and_display_gui(filename);
+	while (!done_editing())
+	{
+		user_command cmd = get_user_input();
+		if (cmd.type == open_new_document)
+		{
+			std::string const new_name = get_filename_from_user();
+			std::thread t(edit_document, new_name);
+			t.detach();
+		}
+		else
+		{
+			process_user_input(cmd);
+		}
+	}
 }
 
 int main()
 {
-	f();
+	edit_document("bar.doc");
 }
